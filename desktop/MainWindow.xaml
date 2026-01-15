@@ -27,6 +27,7 @@
         <DockPanel>
             <Menu>
                 <MenuItem Header="Főmenüpont">
+                    <MenuItem Header="Sportolók" Command="{Binding ShowSportoloViewCommand}"></MenuItem>
                     <MenuItem Header="Vezérlőpult" Command="{Binding ShowControlPanalViewCommand}"></MenuItem>
                     <MenuItem Header="Diákok" Command="{Binding ShowStudentViewCommand}" ></MenuItem>
                     <MenuItem Header="Osztályok" Command="{Binding ShowSchoolClassViewCommand}"></MenuItem>
