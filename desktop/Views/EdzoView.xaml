@@ -26,13 +26,14 @@
             <ColumnDefinition Width="12"/>
 		</Grid.ColumnDefinitions>
         <Rectangle  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.ColumnSpan="6" Grid.Row="1" Grid.Column="0" Fill="Black" Height="1"/>
-        <Line HorizontalAlignment="Right" Grid.Column="1" Grid.Row="0"  Fill="Yellow"  Height="auto" Width="5" Grid.RowSpan="4"/>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="1">Edzők neve:</TextBlock>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="2">Életkor:</TextBlock>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="3">Egyesület:</TextBlock>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="4">Sportolói:</TextBlock>
         
-               
-		
+        <Border Grid.Row="1" Grid.Column="1" Grid.RowSpan="4"
+        Width="2" Background="Gray"
+        HorizontalAlignment="Right"/>
+
     </Grid>
 </UserControl>
