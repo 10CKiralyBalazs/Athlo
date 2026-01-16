@@ -14,8 +14,8 @@
 			
 			<RowDefinition Height="Auto"></RowDefinition>
 			<RowDefinition Height="Auto"></RowDefinition>
-			<RowDefinition Height="Auto"></RowDefinition>
-			<RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="12"/>
@@ -25,7 +25,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="12"/>
 		</Grid.ColumnDefinitions>
-        <Rectangle  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.ColumnSpan="6" Grid.Row="1" Grid.Column="0" Fill="Black" Height="1"/>
+        <Rectangle  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.ColumnSpan="6" Grid.Row="1" Grid.Column="0" Fill="Gray" Height="1"/>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="1">Edzők neve:</TextBlock>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="2">Életkor:</TextBlock>
         <TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="3">Egyesület:</TextBlock>
@@ -34,6 +34,15 @@
         <Border Grid.Row="1" Grid.Column="1" Grid.RowSpan="4"
         Width="2" Background="Gray"
         HorizontalAlignment="Right"/>
+        <Border Grid.Row="1" Grid.Column="2" Grid.RowSpan="4"
+ Width="2" Background="Gray"
+ HorizontalAlignment="Right"/>
+        <Border Grid.Row="1" Grid.Column="3" Grid.RowSpan="4"
+ Width="2" Background="Gray"
+ HorizontalAlignment="Right"/>
+        <Border Grid.Row="1" Grid.Column="4" Grid.RowSpan="4"
+ Width="2" Background="Gray"
+ HorizontalAlignment="Right"/>
 
     </Grid>
 </UserControl>
