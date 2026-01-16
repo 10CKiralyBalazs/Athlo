@@ -3,7 +3,7 @@ namespace MyApp.Shared.Models
     /// <summary>
     /// Diák adatait tároló osztály.
     /// </summary>
-    public class Student
+    public class Sportolo
     {
         /// <summary>
         /// A diák neve.
@@ -18,17 +18,22 @@ namespace MyApp.Shared.Models
         /// <summary>
         /// Az osztály, amelybe a diák jár.
         /// </summary>
-        public string ClassName { get; set; } = string.Empty;
+        public string Sportag { get; set; } = string.Empty;
+        public string Egyesulet { get; set; } = string.Empty;
 
-        public Student() { }
+        
 
-        public Student(string name, int age, string className)
+
+        public Sportolo() { }
+
+        public Sportolo(string name, int age, string sportag, string egyesulet)
         {
             Name = name;
             Age = age;
-            ClassName = className;
+            Sportag = sportag;
+            Egyesulet = egyesulet;
         }
 
-        public override string ToString() => $"{Name} ({Age}) – {ClassName}";
+        public override string ToString() => $"{Name} ({Age}) – {Sportag} - {Egyesulet}";
     }
 }
