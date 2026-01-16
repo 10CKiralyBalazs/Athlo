@@ -1,21 +1,17 @@
-namespace MyApp.Shared.Models
+﻿namespace MyApp.Backend.Entity
 {
-    /// <summary>
-    /// Diák adatait tároló osztály.
-    /// </summary>
     public class Sportolo
     {
-       
         public string Name { get; set; } = string.Empty;
 
-        
+
         public int Age { get; set; }
 
-       
+
         public string Sportag { get; set; } = string.Empty;
         public string Egyesulet { get; set; } = string.Empty;
 
-        
+
 
 
         public Sportolo() { }
