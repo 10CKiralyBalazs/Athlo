@@ -31,15 +31,15 @@
 			<ColumnDefinition Width="12"/>
 			<ColumnDefinition Width="150"/>
 			<ColumnDefinition Width="50"/>
-			<ColumnDefinition Width="200"/>
+			
 			<ColumnDefinition Width="*"/>
-			<ColumnDefinition Width="12"/>
+			
 		</Grid.ColumnDefinitions>
 		<Rectangle  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.ColumnSpan="6" Grid.Row="1" Grid.Column="0" Fill="Gray" Height="1"/>
 		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="1">Rajongók neve:</TextBlock>
 		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="2">Életkor:</TextBlock>
 		
-		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="4">Kedvenc Sportolói:</TextBlock>
+		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="3">Kedvenc Sportolói:</TextBlock>
 
 		<Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
                 VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
