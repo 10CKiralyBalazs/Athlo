@@ -7,7 +7,80 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              d:Background="Silver">
-    <Grid>
-        <Label>Rajong�k</Label>
-    </Grid>
+	<Grid>
+		<Grid.RowDefinitions>
+
+			<RowDefinition Height="Auto"></RowDefinition>
+			<RowDefinition Height="Auto"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="25"></RowDefinition>
+			<RowDefinition Height="9*"></RowDefinition>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="12"/>
+			<ColumnDefinition Width="150"/>
+			<ColumnDefinition Width="50"/>
+			<ColumnDefinition Width="200"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="12"/>
+		</Grid.ColumnDefinitions>
+		<Rectangle  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.ColumnSpan="6" Grid.Row="1" Grid.Column="0" Fill="Gray" Height="1"/>
+		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="1">Rajongók neve:</TextBlock>
+		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="2">Életkor:</TextBlock>
+		
+		<TextBlock TextAlignment="Center" Grid.Row ="1" Grid.Column="4">Kedvenc Sportolói:</TextBlock>
+
+		<Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+                VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+		<Border Grid.Row="14" Grid.Column="0" Grid.ColumnSpan="3" Width="412" Background="Gray" Height="2"
+        VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+
+		<Border Grid.Row="1" Grid.Column="1" Grid.RowSpan="100"
+        Width="2" Background="Gray"
+        HorizontalAlignment="Right"/>
+		<Border Grid.Row="1" Grid.Column="2" Grid.RowSpan="100"
+ Width="2" Background="Gray"
+ HorizontalAlignment="Right"/>
+		<Border Grid.Row="1" Grid.Column="3" Grid.RowSpan="100"
+ Width="2" Background="Gray"
+ HorizontalAlignment="Right"/>
+		<Border Grid.Row="1" Grid.Column="4" Grid.RowSpan="100"
+ Width="2" Background="Gray"
+ HorizontalAlignment="Right"/>
+
+	</Grid>
 </UserControl>
+
